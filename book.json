@@ -1,0 +1,69 @@
+{
+    "title": "suofeiya's StudyNote",
+    "description": "好记性不如烂笔头，记录我的学习过程～",
+    "author": "suofeiya",
+    "output.name": "site",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "root": ".",
+    "links": {
+        "sidebar": {
+            "◆点击进入我的个人博客": "https://suofeiya.pro"
+        }
+    },
+    "plugins": [
+        "github@^2.0.0",
+        "edit-link@^2.0.2",
+        "anchors@^0.7.1",
+        "include-codeblock@^3.0.2",
+        "splitter@^0.0.8",
+        "tbfed-pagefooter@^0.0.1",
+        "expandable-chapters-small@^0.1.7",
+        "anchor-navigation-ex@0.1.8",
+        "-prism",
+        "insert-logo",
+        "klipse",
+        "theme-comscore"
+
+    ],
+
+    "pluginsConfig": {
+        "theme-default": {
+            "showLevel": true
+        },
+        "github": {
+            "url": "https://suofeiya.pro/mygitbook"
+        },
+        "include-codeblock": {
+            "template": "ace",
+            "unindent": true,
+            "edit": true
+        },
+        "tbfed-pagefooter": {
+            "copyright": "Copyright © suofeiya 2019",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "edit-link": {
+            "base": "https://github.com/ictw/mygitbook",
+            "label": "Edit This Page"
+        },
+        "anchor-navigation-ex": {
+            "isRewritePageTitle": true,
+            "tocLevel1Icon": "fa fa-hand-o-right",
+            "tocLevel2Icon": "fa fa-hand-o-right",
+            "tocLevel3Icon": "fa fa-hand-o-right"
+        },
+        "prism": {
+            "css": [
+                "prismjs/themes/prism-dark.css"
+            ]
+        },
+        "insert-logo": {
+            "url": "https://avatars3.githubusercontent.com/u/47807928?s=460&v=4",
+            "style": "background: none; max-height: 50px; min-height: 50px"
+        }
+
+
+    }
+}
